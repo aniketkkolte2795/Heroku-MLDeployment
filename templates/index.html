@@ -17,11 +17,11 @@
 	<h1>Predict Salary Analysis</h1>
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-        <label>Experience: </label>
+        
     	<input type="text" name="experience" placeholder="Experience" required="required" /><br/><br/>
-    	 <label>Test Score: </label>
+    	 
         <input type="text" name="test_score" placeholder="Test Score" required="required" /><br/><br/>
-         <label>Interview Score: </label>
+         
 		<input type="text" name="interview_score" placeholder="Interview Score" required="required" /><br/><br/>
 
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
